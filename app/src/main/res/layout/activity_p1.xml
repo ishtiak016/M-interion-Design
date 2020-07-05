@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".p1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="বরুড়া কুমিল্লা প্রজেক্ট"
+        android:id="@+id/barura"
+        android:textSize="35sp"
+
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onClick">
+    </Button>
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=" নিট পলিটেকনিক,  চট্টগ্রাম"
+        android:id="@+id/chittagang"
+        android:textSize="35sp"
+
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onClick">
+    </Button>
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=" ধানমন্ডি ১৫,  ঢাকা"
+        android:id="@+id/Danmondi"
+        android:textSize="35sp"
+
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onClick">
+    </Button>
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=" বহদ্দদারহাট,  চট্টগ্রাম"
+        android:id="@+id/Bahaddarhat"
+        android:textSize="35sp"
+
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onClick">
+    </Button>
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=" বাংলাদেশ সচিবালয়"
+        android:id="@+id/BangladeshCabinet"
+        android:textSize="35sp"
+
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onClick">
+    </Button>
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="সাভার কেন্দ্রীয় গো প্রজনন এন্ড ডেইরী ফার্ম"
+        android:id="@+id/Savar"
+        android:textSize="35sp"
+
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onClick">
+    </Button>
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="প্রানী সম্পদ মন্ত্রণালয়"
+        android:id="@+id/animal"
+        android:textSize="35sp"
+
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onClick">
+    </Button>
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="ডুপ্লেক্স ইন্টেরিওর"
+        android:id="@+id/duplex"
+        android:textSize="35sp"
+
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onClick">
+    </Button>
+</LinearLayout>
+</ScrollView>

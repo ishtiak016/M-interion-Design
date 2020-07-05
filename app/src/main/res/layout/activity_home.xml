@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/app"
+    android:orientation="horizontal"
+    android:backgroundTintMode="src_over"
+    tools:context=".HomeActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+       >
+        <Button
+            android:id="@+id/drawingRoomButton"
+            android:text="Drowing Room"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/drawing_room"
+            android:onClick="onClick"></Button>
+        <Button
+            android:id="@+id/diningRoomButton"
+            android:text="Dining Room"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/dininig_room"
+            android:onClick="onClick"
+            ></Button>
+
+        <Button
+            android:id="@+id/livingRoomButton"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/living_room"
+            android:onClick="onClick"
+            android:text="Living Room"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@android:color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"></Button>
+        <Button
+            android:layout_marginTop="15dp"
+            android:id="@+id/bedRoomButton"
+            android:text="Bed Room"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/bedroom"
+            android:onClick="onClick"
+            ></Button>
+        <Button
+            android:id="@+id/kidRoomButton"
+            android:text="Kids Room"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/kids_room"
+            android:onClick="onClick"></Button>
+        <Button
+            android:id="@+id/windowButton"
+            android:text="Window"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/window"
+            android:onClick="onClick"
+            ></Button>
+
+        <Button
+            android:id="@+id/designGlassButton"
+            android:text="Design Glass"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/design_glass"
+            android:onClick="onClick"
+            ></Button>
+        <Button
+            android:id="@+id/designPaintButton"
+            android:text="Design Paint"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/design_paint"
+            android:onClick="onClick"
+            ></Button>
+
+        <Button
+            android:id="@+id/jypsumButton"
+            android:text="Jypsum"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/gypsum"
+            android:onClick="onClick"
+            ></Button>
+
+        <Button
+            android:id="@+id/kithchenButton"
+            android:text="Kitchen"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/kitchenfinal"
+            android:onClick="onClick"></Button>
+        <Button
+            android:id="@+id/duplexStarButton"
+            android:text="Duplex Stair"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/duplex_house"
+            android:onClick="onClick"></Button>
+        <Button
+            android:id="@+id/mainDoorButton"
+            android:text="Main Door"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/maindoor"
+            android:onClick="onClick"></Button>
+        <Button
+            android:id="@+id/readingDressingButton"
+            android:text="Reading &amp; Dressing"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/reading_dressing"
+            android:onClick="onClick"></Button>
+        <Button
+            android:id="@+id/wallCabinetButton"
+            android:text="wall Cabinet"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/wallcabinet"
+            android:onClick="onClick"></Button>
+
+        <Button
+
+            android:id="@+id/wallTvButton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:text="TV Wall"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/wall_tv"
+            android:onClick="onClick"
+            ></Button>
+
+        <Button
+        android:id="@+id/conventionalButton"
+        android:text="ConVention Hall"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textColorHighlight="@android:color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/conventional"
+        android:onClick="onClick"></Button>
+
+
+
+        <Button
+            android:id="@+id/swimingPoolButton"
+            android:text="Swiming pool"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/swiming_pool"
+            android:onClick="onClick"></Button>
+
+        <Button
+            android:id="@+id/resortButton"
+            android:text="Resort"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textSize="40sp"
+            android:onClick="onClick"
+            android:background="@drawable/resort"></Button>
+
+        <Button
+            android:id="@+id/officeButton"
+            android:text="Office"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/office"
+            android:onClick="onClick"></Button>
+        <Button
+            android:id="@+id/buttonFurniture"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:text="Furniture"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/furnisher"
+            android:onClick="onClick"
+            ></Button>
+        <Button
+            android:id="@+id/clientButton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:text="Our Clients"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/clients"
+            android:onClick="onClick"
+            ></Button>
+        <Button
+            android:id="@+id/projectButton"
+            android:text="Project"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/bedroom"
+            android:onClick="onClick"></Button>
+        <Button
+        android:id="@+id/contactButton"
+        android:text="Contact"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textColorHighlight="@android:color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/bedroom"
+        android:onClick="onClick"></Button>
+        <Button
+            android:id="@+id/aboutButton"
+            android:text="About Us"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/ab"
+            android:onClick="onClick"></Button>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,2 @@
+rootProject.name='Mother Interior'
+include ':app'
