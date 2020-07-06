@@ -46,7 +46,8 @@ public class ProjectAdapter extends RecyclerView.Adapter<ProjectAdapter.ProjectV
        // holder.mTextViewProjectName.setText(""+projectName);
         holder.mTextViewDescription.setText(""+mDescription);
         holder.mTextViewLocation.setText(""+mLocation);
-        Picasso.with(mContext).load(imageUrl).fit().centerCrop() .into(holder.mImageView);
+//        Picasso.with(mContext).load(imageUrl).fit().centerCrop() .into(holder.mImageView);
+        Picasso.get().load(imageUrl).fit().centerCrop().into(holder.mImageView);
 
 
     }

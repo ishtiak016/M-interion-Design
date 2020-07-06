@@ -19,13 +19,14 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.github.chrisbanes.photoview.PhotoView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-public class viewPageAdapter extends PagerAdapter  {
+public class viewPageAdapter extends PagerAdapter {
     private Context context;
-    private ArrayList<String>imageUrl;
+    private ArrayList<String> imageUrl;
     private LayoutInflater layoutInflater;
     String s;
     ImageView imageView;
@@ -35,11 +36,13 @@ public class viewPageAdapter extends PagerAdapter  {
     private LayoutInflater inflater;
     private TextView txtitem;
     String s1[];
+    private PhotoView photoView;
+    public String selectedImageUrl;
 
 
-    viewPageAdapter(Context context, ArrayList<String> imageurl){
-        this.context=context;
-        this.imageUrl=imageurl;
+    viewPageAdapter(Context context, ArrayList<String> imageurl) {
+        this.context = context;
+        this.imageUrl = imageurl;
 
     }
 
@@ -51,24 +54,33 @@ public class viewPageAdapter extends PagerAdapter  {
 
     @Override
     public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
-        return view==object;
+        return view == object;
     }
 
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-  imageView=new ImageView(context);
+//        imageView = new ImageView(context);
 
-  Picasso.with(context)
-        .load(imageUrl.get(position))
-        .fit()
-        .centerInside()
-         .into(imageView);
-        container.addView(imageView);
-    return imageView;
+        photoView  = new PhotoView(context);
+
+        setSelectedImageUrl(imageUrl.get(position));
+
+        Picasso.get()
+                .load(imageUrl.get(position))
+                .fit()
+                .centerInside()
+                .into(photoView);
+        container.addView(photoView);
+        return photoView;
     }
+
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-       container.removeView((View)object);
+        container.removeView((View) object);
+    }
+
+    public String setSelectedImageUrl (String url){
+        return url;
     }
 }
